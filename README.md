@@ -1,2 +1,3 @@
-# the-go-programming-language
-Exercises of the book "The Go Programming Language"
+# Exercises of _The Go Programming Language_
+
+Exercises of the book [_The Go Programming Language_](http://www.gopl.io/).
