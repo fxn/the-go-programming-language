@@ -16,9 +16,9 @@ var args = []string{"/usr/local/bin/go", "foo", "bar", "baz", "zoo", "woo"}
 
 func BenchmarkEcho1(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		var s, sep string
+		var _, sep string
 		for j := 1; j < len(args); j++ {
-			s += sep + args[j]
+			_ += sep + args[j]
 			sep = " "
 		}
 	}
