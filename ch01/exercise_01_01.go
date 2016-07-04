@@ -1,6 +1,9 @@
 /*
   Exercise 1.1: Modify the echo program to also print os.Args[0], the name of
   the command that invoked it.
+
+  Solution: We can take for example the most compact of the echo variants,
+  echo3, and just pass the entire os.Args slice to strings.Join.
 */
 package main
 

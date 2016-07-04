@@ -2,8 +2,8 @@
   Exercise 1.4: Modify dup2 to print the names of all files in which each
   duplicated line occurs.
 
-  I have edited a little bit the original listing, some variable renamed, blank
-  lines added, code extracted into functions, etc.
+  Solution: I have edited a little bit the original listing, some variable
+  renamed, blank lines added, code extracted into functions, etc.
 
   Since the counter in dup2 is not per file, but global, the program needs to
   keep track of the origin of each line. Reason is, if a line appears first in
